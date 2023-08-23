@@ -13,7 +13,6 @@
   "dependencies": {
     "rimraf": "^5.0.1"
   },
- 
   "keywords": [],
   "author": "",
   "license": "ISC"
