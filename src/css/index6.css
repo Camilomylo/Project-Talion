@@ -1,0 +1,132 @@
+.meteorito-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 707px;
+  height: 926px;
+  object-fit: cover;
+  mix-blend-mode: luminosity;
+}
+.cuento-2 {
+  position: absolute;
+  top: 28px;
+  left: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 309px;
+  height: 152px;
+}
+.iphone-13-pro-max-5-child {
+  position: absolute;
+  top: 873px;
+  left: 9px;
+  border-radius: 50%;
+  background-color: var(--color-gray);
+  width: 46px;
+  height: 44px;
+}
+.iphone-13-pro-max-5-item {
+  position: absolute;
+  top: 887.38px;
+  left: 23.49px;
+  border-radius: var(--br-11xs);
+  width: 12.76px;
+  height: 16.25px;
+}
+.iphone-13-pro-max-5-inner {
+  position: absolute;
+  top: 873px;
+  left: 9px;
+  border-radius: 50%;
+  background-color: var(--color-gray);
+  width: 46px;
+  height: 44px;
+  cursor: pointer;
+}
+.cuento-1-sin {
+  position: absolute;
+  top: 313px;
+  left: 65px;
+  letter-spacing: 0.35em;
+  color: #bb793d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 303px;
+  height: 286px;
+  mix-blend-mode: luminosity;
+}
+.iphone-13-pro-max-5-child1,
+.rectangle-div {
+  position: absolute;
+  top: 238px;
+  left: 406px;
+  border-radius: var(--br-81xl);
+  background-color: #636363;
+  width: 11px;
+  height: 449px;
+}
+.iphone-13-pro-max-5-child1 {
+  top: 358px;
+  left: 409px;
+  background-color: #cecdcd;
+  width: 5px;
+  height: 55px;
+}
+.ellipse-div {
+  position: absolute;
+  top: 874px;
+  left: 371px;
+  border-radius: 50%;
+  background-color: var(--color-gray);
+  width: 46px;
+  height: 44px;
+}
+.iphone-13-pro-max-5-child2,
+.iphone-13-pro-max-5-child4 {
+  position: absolute;
+  top: 888.38px;
+  left: 385.49px;
+  border-radius: var(--br-11xs);
+  width: 12.76px;
+  height: 16.25px;
+}
+.iphone-13-pro-max-5-child4 {
+  top: 891.47px;
+  left: 381px;
+  width: 9.25px;
+  height: 10.07px;
+}
+.line-icon {
+  position: absolute;
+  top: 890.69px;
+  left: 393.61px;
+  width: 2.64px;
+  height: 10.62px;
+}
+.iphone-13-pro-max-5-child5 {
+  position: absolute;
+  top: 888.75px;
+  left: 398.57px;
+  width: 2.79px;
+  height: 14.5px;
+}
+.iphone-13-pro-max-5-child6 {
+  position: absolute;
+  top: 885.81px;
+  left: 403.54px;
+  width: 2.88px;
+  height: 19.39px;
+}
+.iphone-13-pro-max-5 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 926px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-juice-itc);
+}

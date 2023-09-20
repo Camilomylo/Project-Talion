@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-juice-itc: "Juice ITC";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-gray: #2d2c2c;
+  --color-black: #000;
+  --color-gainsboro: #d9d9d9;
+  --color-darkgray: #a1a1a1;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+}

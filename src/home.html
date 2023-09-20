@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href=".css/global2.css" />
+    <link rel="stylesheet" href=".css/global2.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Juice ITC:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="iphone-13-pro-max-1">
+      <div class="toca-para-empezar" id="tocaParaEmpezar">
+        Toca para empezar
+      </div>
+      <img class="luna-icon" alt="" src="./imgs/Luna.jpg" />
+
+      <div class="toca-para-empezar" id="tocaParaEmpezar1">
+        Toca para empezar
+      </div>
+      <div class="iphone-13-pro-max-1-child" id="ellipse"></div>
+      <img class="iphone-13-pro-max-1-item" alt="" src="./imgs/line-11.svg" />
+
+      <img class="iphone-13-pro-max-1-inner" alt="" src="./imgs/line-11.svg" />
+
+      <img class="line-icon" alt="" src="./imgs/line-11.svg" />
+    </div>
+
+    <script>
+      var tocaParaEmpezar = document.getElementById("tocaParaEmpezar");
+      if (tocaParaEmpezar) {
+        tocaParaEmpezar.addEventListener("click", function (e) {
+          // Please sync "iPhone 13 Pro Max - 1" to the project
+          window.location.href = "selector.html";
+          
+        });
+      }
+      
+      var tocaParaEmpezar1 = document.getElementById("tocaParaEmpezar1");
+      if (tocaParaEmpezar1) {
+        tocaParaEmpezar1.addEventListener("click", function (e) {
+          // Please sync "iPhone 13 Pro Max - 1" to the project
+          window.location.href = "selector.html";
+        });
+      }
+      
+      var ellipse = document.getElementById("ellipse");
+      if (ellipse) {
+        ellipse.addEventListener("click", function (e) {
+          // Please sync "iPhone 13 Pro Max - 6" to the project
+          window.location.href = "editor.html";
+        });
+      }
+      </script>
+  </body>
+</html>

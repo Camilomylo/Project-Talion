@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-juice-itc: "Juice ITC";
+
+  /* font sizes */
+  --font-size-21xl: 40px;
+
+  /* Colors */
+  --color-white: #fff;
+}
