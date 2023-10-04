@@ -1,3 +1,293 @@
 body{
     background: white;
+    margin: 0;
+    line-height: normal;
 }
+
+:root {
+    /* fonts */
+    --font-juice-itc: "Juice ITC";
+  
+    /* font sizes */
+    --font-size-21xl: 40px;
+    --font-size-xl: 20px;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-gray: #2d2c2c;
+    --color-black: #000;
+    --color-gainsboro: #d9d9d9;
+    --color-darkgray: #a1a1a1;
+  
+    /* Border radiuses */
+    --br-11xs: 2px;
+    --br-81xl: 100px;
+  }
+/* Clases compartidas entre varios elementos */
+.position-absolute {
+    position: absolute;
+  }
+  
+  .border-radius-50 {
+    border-radius: 50%;
+  }
+  
+  .background-color-gray {
+    background-color: var(--color-gray);
+  }
+  
+  .width-46 {
+    width: 46px;
+  }
+  
+  .height-44 {
+    height: 44px;
+  }
+  
+  .width-12 {
+    width: 12.76px;
+  }
+  
+  .height-16 {
+    height: 16.25px;
+  }
+  
+  /* Clases para los elementos comunes */
+  .common-element {
+    top: 873px;
+    left: 9px;
+  }
+  
+  /* Clases específicas para cada grupo de elementos */
+  .meteorito-icon,
+  .luna-icon,
+  .cometas-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 926px;
+    object-fit: cover;
+    mix-blend-mode: luminosity;
+  }
+  
+  .iphone-13-pro-max-1,
+  .iphone-13-pro-max-2,
+  .iphone-13-pro-max-5,
+  .iphone-13-pro-max-6 {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 926px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-juice-itc);
+  }
+  
+  .cuento-1,
+  .cuento-1-sin,
+  .cuento-2,
+  .toca-para-empezar,
+  .ajustes-de-color,
+  .tocar,
+  .tocar1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 309px;
+    height: 152px;
+    top: 28px;
+    left: 59px;
+  }
+  
+  .rectangle-div,
+  .iphone-13-pro-max-1-child1,
+  .iphone-13-pro-max-5-child1 {
+    position: absolute;
+    top: 238px;
+    left: 406px;
+    border-radius: var(--br-81xl);
+    width: 11px;
+    height: 449px;
+  }
+  
+  .iphone-13-pro-max-1-inner,
+  .iphone-13-pro-max-1-item,
+  .line-icon,
+  .iphone-13-pro-max-1-child2,
+  .iphone-13-pro-max-1-child7,
+  .iphone-13-pro-max-1-child10,
+  .iphone-13-pro-max-1-child11,
+  .iphone-13-pro-max-1-child12,
+  .iphone-13-pro-max-6-child,
+  .iphone-13-pro-max-6-item {
+    position: absolute;
+  }
+  
+  .iphone-13-pro-max-1-inner,
+  .line-icon {
+    top: 890px;
+  }
+  
+  .line-icon {
+    top: 899px;
+  }
+  
+  /* Clases específicas para los elementos de cada grupo */
+  .iphone-13-pro-max-1-child,
+  .iphone-13-pro-max-1-child2,
+  .iphone-13-pro-max-1-child7,
+  .iphone-13-pro-max-1-child10,
+  .iphone-13-pro-max-5-child,
+  .iphone-13-pro-max-5-child2,
+  .iphone-13-pro-max-5-child4,
+  .iphone-13-pro-max-5-child5,
+  .iphone-13-pro-max-5-child6 {
+    border-radius: 50%;
+    width: 46px;
+    height: 44px;
+    cursor: pointer;
+  }
+  
+  .iphone-13-pro-max-1-child {
+    background-color: #2d2c2c;
+    border: 3px solid var(--color-darkgray);
+    box-sizing: border-box;
+  }
+  
+  .iphone-13-pro-max-1-inner,
+  .iphone-13-pro-max-1-item,
+  .iphone-13-pro-max-1-child2,
+  .iphone-13-pro-max-1-child10 {
+    width: 27px;
+    height: 6px;
+  }
+  
+  .iphone-13-pro-max-1-item {
+    border-radius: 2px;
+  }
+  
+  .iphone-13-pro-max-1-child10 {
+    top: 885.47px;
+    left: 377px;
+    width: 9.25px;
+    height: 10.07px;
+  }
+  
+  .line-icon {
+    width: 2.64px;
+    height: 10.62px;
+  }
+  
+  .iphone-13-pro-max-1-child11 {
+    width: 2.79px;
+    height: 14.5px;
+  }
+  
+  .iphone-13-pro-max-1-child12 {
+    width: 2.88px;
+    height: 19.39px;
+  }
+  
+  .iphone-13-pro-max-2-child4,
+  .iphone-13-pro-max-2-child5,
+  .iphone-13-pro-max-2-child6 {
+    width: 12.76px;
+    height: 16.25px;
+  }
+  
+  .iphone-13-pro-max-2-child4 {
+    top: 890.47px;
+    left: 381px;
+    width: 9.25px;
+    height: 10.07px;
+  }
+  
+  .line-icon {
+    top: 884.69px;
+    left: 389.61px;
+    width: 2.64px;
+    height: 10.62px;
+  }
+  
+  .iphone-13-pro-max-2-child5 {
+    top: 887.75px;
+    left: 398.57px;
+    width: 2.79px;
+    height: 14.5px;
+  }
+  
+  .iphone-13-pro-max-2-child6 {
+    top: 884.81px;
+    left: 403.54px;
+    width: 2.88px;
+    height: 19.39px;
+  }
+  
+  /* Clases para los elementos específicos de la luna */
+  .iphone-13-pro-max-1-child,
+  .iphone-13-pro-max-6-child {
+    background-color: #2d2c2c;
+    mix-blend-mode: hard-light;
+  }
+  
+  .iphone-13-pro-max-1-child,
+  .iphone-13-pro-max-6-child,
+  .iphone-13-pro-max-1-inner {
+    border: 3px solid var(--color-darkgray);
+    box-sizing: border-box;
+    width: 103px;
+    height: 103px;
+  }
+  
+  .tocar,
+  .tocar1 {
+    width: 66px;
+    height: 42px;
+  }
+  
+  /* Clases para los elementos específicos de los cometas */
+  .rectangle-div {
+    background-color: #636363;
+  }
+  
+  .iphone-13-pro-max-5-child1 {
+    background-color: #cecdcd;
+    width: 5px;
+    height: 55px;
+  }
+  
+  .iphone-13-pro-max-5-child4 {
+    top: 891.47px;
+    left: 381px;
+    width: 9.25px;
+    height: 10.07px;
+  }
+  
+  .iphone-13-pro-max-5-child5 {
+    width: 2.79px;
+    height: 14.5px;
+  }
+  
+  .iphone-13-pro-max-5-child6 {
+    width: 2.88px;
+    height: 19.39px;
+  }
+  
+  /* Clases para los elementos específicos de los meteoritos */
+  .meteorito-icon {
+    width: 707px;
+  }
+  
+  /* Clases para los elementos específicos de la luna */
+  .luna-icon {
+    width: 1334px;
+  }
+  
+  /* Clases para los elementos específicos de los cometas */
+  .cometas-icon {
+    width: 1589px;
+  }
