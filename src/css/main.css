@@ -31,12 +31,11 @@ body{
   left: 0;
   height: 200vh;
   object-fit: cover;
+  max-width: 100%; /* Ajusta el tamaño de la imagen si es necesario */
+  max-height: 100%;
 }
 /* Estilos para la imagen (ajustar según sea necesario) */
-img {
-    max-width: 100%; /* Ajusta el tamaño de la imagen si es necesario */
-    max-height: 100%; /* Ajusta el tamaño de la imagen si es necesario */
-}
+
 .toca-para-empezar {
   position: absolute;
   top: 413px;
@@ -118,6 +117,7 @@ img {
   }
   
   /* Clases específicas para cada grupo de elementos */
+
   .meteorito-icon,
   .luna-icon,
   .cometas-icon {
@@ -161,6 +161,15 @@ img {
     top: 28px;
     left: 59px;
   }
+  .tocar-circle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 20px;
+    left: 40px;
+    background-color: #2d2c2c;
+  }
   
   .rectangle-div,
   .iphone-13-pro-max-1-child1,
@@ -192,7 +201,7 @@ img {
   }
     
   /* Clases específicas para los elementos de cada grupo */
-  .iphone-13-pro-max-1-child,
+  .tocar-circle,
   .iphone-13-pro-max-1-child2,
   .iphone-13-pro-max-1-child7,
   .iphone-13-pro-max-1-child10,
@@ -207,22 +216,18 @@ img {
     cursor: pointer;
   }
   
-  .iphone-13-pro-max-1-child {
-    background-color: #2d2c2c;
-    border: 3px solid var(--color-darkgray);
-    box-sizing: border-box;
-  }
-  
   .iphone-13-pro-max-1-inner,
   .iphone-13-pro-max-1-item,
   .iphone-13-pro-max-1-child2,
   .iphone-13-pro-max-1-child10 {
     width: 27px;
-    height: 6px;
+    height: 40px;
   }
   
   .iphone-13-pro-max-1-item {
-    border-radius: 2px;
+    border-radius: 10px;
+    top: 108px;
+    left: 59px;
   }
   
   .iphone-13-pro-max-1-child10 {
@@ -243,8 +248,8 @@ img {
   }
   
   .iphone-13-pro-max-1-child12 {
-    width: 2.88px;
-    height: 19.39px;
+    width: 28px;
+    height: 14px;
   }
   
   .iphone-13-pro-max-2-child4,
@@ -283,25 +288,28 @@ img {
   }
   
   /* Clases para los elementos específicos de la luna */
-  .iphone-13-pro-max-1-child,
+  
   .iphone-13-pro-max-6-child {
     background-color: #2d2c2c;
     mix-blend-mode: hard-light;
   }
   
-  .iphone-13-pro-max-1-child,
+  .tocar-circle,
   .iphone-13-pro-max-6-child,
   .iphone-13-pro-max-1-inner {
     border: 3px solid var(--color-darkgray);
     box-sizing: border-box;
-    width: 103px;
-    height: 103px;
+    width: 100px;
+    height: 100px;
   }
   
-  .tocar,
+  .tocar{
+    width: 64px;
+    height: 80px;
+  }
   .tocar1 {
-    width: 66px;
-    height: 42px;
+    width: 380px;
+    height: 1110px;
   }
   
   /* Clases para los elementos específicos de los cometas */
