@@ -11,24 +11,21 @@
     />
   </head>
   <body>
-    <div class="iphone-13-pro-max-1">
+    <div class="Home">
+      <img
+        class="Luna"
+        alt=""
+       src="https://wallpaperaccess.com/full/7837788.jpg"
+      />
       <div class="toca-para-empezar" id="tocaParaEmpezar">
         Toca para empezar
       </div>
-      <img class="luna-icon" alt="" src="./imgs/Luna.jpg" />
-
-      <div class="toca-para-empezar" id="tocaParaEmpezar1">
-        Toca para empezar
+      <div class="Menu-icon" id="ellipse"></div>
+        <img class="line-icon" alt="" src="https://res.cloudinary.com/djtvi3lkk/image/upload/v1696449717/Talion/WhiteMenuIcon.png" />
       </div>
-      <div class="iphone-13-pro-max-1-child" id="ellipse"></div>
-      <img class="iphone-13-pro-max-1-item" alt="" src="./imgs/line-11.svg" />
-      <img class="iphone-13-pro-max-1-inner" alt="" src="./imgs/line-11.svg" />
-      <img class="line-icon" alt="" src="./imgs/line-11.svg" />
     </div>
-
     <script>
     var tocaParaEmpezar = document.getElementById("tocaParaEmpezar");
-    var tocaParaEmpezar1 = document.getElementById("tocaParaEmpezar1");
     var ellipse = document.getElementById("ellipse");
 
     if (tocaParaEmpezar) {
@@ -36,13 +33,6 @@
         window.location.href = "selector.html";
       });
     }
-
-    if (tocaParaEmpezar1) {
-      tocaParaEmpezar1.addEventListener("click", function (e) {
-        window.location.href = "selector.html";
-      });
-    }
-
     if (ellipse) {
       ellipse.addEventListener("click", function (e) {
         window.location.href = "editor.html";
