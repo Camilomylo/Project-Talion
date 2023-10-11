@@ -61,8 +61,8 @@ body{
 
   .toca-para-empezar {
     position: absolute;
-    top: 413px;
-    left: 104px;
+    top: 460px;
+    left: 95px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,17 +72,27 @@ body{
   }
   .Menu-icon {
     position: absolute;
-    top: 871px;
-    left: 371px;
+    top: 780px;
+    left: 320px;
     border-radius: 50%;
-    background-color: #2d2c2c;
+    background-color:  #666363;
     width: 44px;
     height: 44px;
     cursor: pointer;
   }
+  .Menu-lines{
+    position: absolute;
+    top: 782.5px;
+    left: 322.5px;
+    border-radius: 50%;
+    background-color:  #666363;
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+  }
+
   .Home-inner,
-  .Home-item,
-  .line-icon {
+  .Home-item {
     position: absolute;
     top: 880px;
     left: 380px;
@@ -148,7 +158,6 @@ body{
   .cuento-1,
   .cuento-1-sin,
   .cuento-2,
-  .toca-para-empezar,
   .ajustes-de-color,
   .tocar {
     position: absolute;
