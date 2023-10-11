@@ -150,8 +150,7 @@ body{
   .cuento-2,
   .toca-para-empezar,
   .ajustes-de-color,
-  .tocar,
-  .tocar1 {
+  .tocar {
     position: absolute;
     display: flex;
     align-items: center;
@@ -170,7 +169,14 @@ body{
     left: 40px;
     background-color: #2d2c2c;
   }
-  
+  .circle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 380px;
+    left: 250px;
+    background-color: #2d2c2c;
+  }
   
   .rectangle-div,
   .iphone-13-pro-max-1-child1,
@@ -183,22 +189,23 @@ body{
     height: 449px;
   }
   
-  .iphone-13-pro-max-1-inner,
+  .circle2,
   .line-icon,
-  .iphone-13-pro-max-1-child2,
+  .back-button,
   .iphone-13-pro-max-6-child,
   .iphone-13-pro-max-6-item {
     position: absolute;
   }
   
-  .iphone-13-pro-max-1-inner,
+  .circle2
   .line-icon {
     top: 690px;
   }
     
   /* Clases específicas para los elementos de cada grupo */
   .tocar-circle,
-  .iphone-13-pro-max-1-child2,
+  .circle2,
+  .back-button,
   .iphone-13-pro-max-5-child,
   .iphone-13-pro-max-5-child2,
   .iphone-13-pro-max-5-child4,
@@ -210,10 +217,11 @@ body{
     cursor: pointer;
   }
   
-  .iphone-13-pro-max-1-inner,
-  .iphone-13-pro-max-1-child2 {
+  .back-button {
     width: 27px;
-    height: 1540px;
+    height: 27px;
+    top: 790px;
+    left: 25px;
   }
   
   .line-icon {
@@ -264,8 +272,8 @@ body{
   }
   
   .tocar-circle,
-  .iphone-13-pro-max-6-child,
-  .iphone-13-pro-max-1-inner {
+  .circle2,
+  .iphone-13-pro-max-6-child {
     border: 3px solid var(--color-darkgray);
     box-sizing: border-box;
     width: 100px;
@@ -276,10 +284,7 @@ body{
     width: 64px;
     height: 80px;
   }
-  .tocar1 {
-    width: 380px;
-    height: 1110px;
-  }
+
   .polygon-icon{
     width: 46px;
     height: 38px;
