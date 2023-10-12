@@ -26,7 +26,7 @@ body{
 /* Clases compartidas entre varios elementos */
 .position-absolute {
     position: absolute;
-  }
+}
   
   .border-radius-50 {
     border-radius: 50%;
@@ -142,7 +142,7 @@ body{
   
   .seleccion,
   .cuento01,
-  .iphone-13-pro-max-5,
+  .cuento02,
   .iphone-13-pro-max-6 {
     position: relative;
     background-color: var(--color-white);
@@ -155,9 +155,8 @@ body{
     font-family: var(--font-juice-itc);
   }
   
-  .titulo-cuento01,
-  .cuerpo-cuento01,
-  .cuento-2,
+  .titulo-cuento,
+  .cuerpo-cuento,
   .ajustes-de-color,
   .tocar {
     position: absolute;
@@ -185,12 +184,10 @@ body{
     background-color: #2d2c2c;
   }
   
-  .rectangle-div,
+  .progress-bar,
   .iphone-13-pro-max-1-child1,
-  .iphone-13-pro-max-5-child1 {
+  .progress-icon{
     position: absolute;
-    top: 238px;
-    left: 406px;
     border-radius: var(--br-81xl);
     width: 11px;
     height: 449px;
@@ -212,12 +209,7 @@ body{
   /* Clases específicas para los elementos de cada grupo */
   .tocar-circle,
   .circle2,
-  .back-button,
-  .iphone-13-pro-max-5-child,
-  .iphone-13-pro-max-5-child2,
-  .iphone-13-pro-max-5-child4,
-  .iphone-13-pro-max-5-child5,
-  .iphone-13-pro-max-5-child6 {
+  .back-button{
     border-radius: 50%;
     width: 46px;
     height: 44px;
@@ -230,24 +222,29 @@ body{
     top: 790px;
     left: 25px;
   }
+  .volume-button{
+    position: absolute;
+    width: 27px;
+    height: 27px;
+    top: 790px;
+    left: 325px;
+  }
   
   .line-icon {
     width: 2.64px;
     height: 10.62px;
   } 
 
-  .titulo-cuento01{
+  .titulo-cuento{
     top: 20px;
     left: 35px;
   }
 
-  .cuerpo-cuento01{
-    top: 350px;
-    left: 40px;
-    width: 275px;
+  .cuerpo-cuento{
+    top: 300px;
+    left: 50px;
+    width: 280px;
     height: 304px;
-    display: flex;
-    text-align: center;
   }
     
   .iphone-13-pro-max-2-child4 {
@@ -294,31 +291,19 @@ body{
   }
   
   /* Clases para los elementos específicos de los cometas */
-  .rectangle-div {
+  .progress-bar {
     background-color: #636363;
+    top: 238px;
+    left: 374px;
   }
   
-  .iphone-13-pro-max-5-child1 {
+  .progress-icon {
+    /*Falta Hacer que se mueva */
     background-color: #cecdcd;
+    top: 250px;
+    left: 377px;
     width: 5px;
-    height: 55px;
-  }
-  
-  .iphone-13-pro-max-5-child4 {
-    top: 891.47px;
-    left: 381px;
-    width: 9.25px;
-    height: 10.07px;
-  }
-  
-  .iphone-13-pro-max-5-child5 {
-    width: 2.79px;
-    height: 14.5px;
-  }
-  
-  .iphone-13-pro-max-5-child6 {
-    width: 2.88px;
-    height: 19.39px;
+    height: 110px;
   }
   
   /* Clases para los elementos específicos de los meteoritos */
